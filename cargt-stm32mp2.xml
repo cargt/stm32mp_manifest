@@ -3,7 +3,7 @@
   <remote name="github"      fetch="https://github.com"/>
   <remote name="oe"          fetch="http://git.openembedded.org"/>
   <remote name="OpenSTLinux" fetch="https://github.com/STMicroelectronics"/>
-  <remote name="cargt"       fetch="ssh://git@gitlab.com/cargt-internal/cargt-yocto/STM32MP2" />
+  <remote name="cargt"       fetch="https://github.com/cargt/"/>
 
 
   <default remote="OpenSTLinux"/>
