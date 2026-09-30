@@ -4,6 +4,7 @@
   <remote name="oe"          fetch="http://git.openembedded.org"/>
   <remote name="OpenSTLinux" fetch="https://github.com/STMicroelectronics"/>
   <remote name="cargt"       fetch="https://github.com/cargt"/>
+  <remote name="azure"       fetch="https://github.com/Azure"/>
 
 
   <default remote="OpenSTLinux"/>
@@ -18,4 +19,5 @@
   <project remote="cargt" name="meta-st-cargt" path="layers/meta-st/meta-st-cargt" revision="scarthgap" upstream="scarthgap"/>
   <project remote="cargt" name="meta-cargt-stm32mp-addons" path="layers/meta-st/meta-cargt-stm32mp-addons" revision="scarthgap" upstream="scarthgap"/>
   <project remote="github" name="rauc/meta-rauc" path="layers/meta-rauc" revision="d63878f20eba7a85ecf53566e7a3377e78bb46ac" upstream="scarthgap"/>
+  <project remote="azure" name="meta-iotedge" path="layers/meta-iotedge" revision="17098956e8d6bd16beea4d18e24c4cecf93dc837" upstream="main"/>
 </manifest>
