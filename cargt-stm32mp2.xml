@@ -17,4 +17,5 @@
   <project name="openembedded-core" path="layers/openembedded-core" remote="oe" revision="cd2b6080a4c0f2ed2c9939ec0b87763aef595048"/>
   <project remote="cargt" name="meta-st-cargt" path="layers/meta-st/meta-st-cargt" revision="scarthgap" upstream="scarthgap"/>
   <project remote="cargt" name="meta-cargt-stm32mp-addons" path="layers/meta-st/meta-cargt-stm32mp-addons" revision="scarthgap" upstream="scarthgap"/>
+  <project remote="github" name="rauc/meta-rauc" path="layers/meta-rauc" revision="d63878f20eba7a85ecf53566e7a3377e78bb46ac" upstream="scarthgap"/>
 </manifest>
