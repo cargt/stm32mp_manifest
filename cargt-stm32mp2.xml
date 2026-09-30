@@ -5,6 +5,7 @@
   <remote name="OpenSTLinux" fetch="https://github.com/STMicroelectronics"/>
   <remote name="cargt"       fetch="https://github.com/cargt"/>
   <remote name="azure"       fetch="https://github.com/Azure"/>
+  <remote name="yp"          fetch="https://git.yoctoproject.org"/>
 
 
   <default remote="OpenSTLinux"/>
@@ -20,4 +21,5 @@
   <project remote="cargt" name="meta-cargt-stm32mp-addons" path="layers/meta-st/meta-cargt-stm32mp-addons" revision="scarthgap" upstream="scarthgap"/>
   <project remote="github" name="rauc/meta-rauc" path="layers/meta-rauc" revision="d63878f20eba7a85ecf53566e7a3377e78bb46ac" upstream="scarthgap"/>
   <project remote="azure" name="meta-iotedge" path="layers/meta-iotedge" revision="17098956e8d6bd16beea4d18e24c4cecf93dc837" upstream="main"/>
+  <project remote="yp" name="meta-lts-mixins" path="layers/meta-lts-mixins" revision="9987a76095ee751864e55e418539f42b9c3b8a6b" upstream="scarthgap/rust"/>
 </manifest>
